@@ -1,7 +1,7 @@
 
 # ATM Interface
 
-This is a simple Java program that simulates an ATM interface. It allows users to perform basic banking operations such as withdrawing money, depositing money, checking balance, and exiting the program.
+This is a simple Java program that simulates an ATM interface. It allows users to perform basic banking operations such as withdrawing money, depositing money, checking balance, viewing transaction details, and exiting the program.
 
 ## Getting Started
 
@@ -25,7 +25,8 @@ Once the program is running, you will see a menu with the following options:
 1. Withdraw: Allows you to withdraw money from your bank account.
 2. Deposit: Allows you to deposit money into your bank account.
 3. Check Balance: Displays the current balance of your bank account.
-4. Exit: Exits the program.
+4. View Transaction Details: Shows the transaction history of your bank account.
+5. Exit: Exits the program.
 
 To choose an option, enter the corresponding number and press Enter. Follow the prompts to enter the required information, such as the amount to withdraw or deposit.
 
@@ -38,7 +39,8 @@ ATM Menu:
 1. Withdraw
 2. Deposit
 3. Check Balance
-4. Exit
+4. View Transaction Details
+5. Exit
 Choose an option: 1
 Enter amount to withdraw: ₹500
 ```

@@ -23,7 +23,7 @@ public class BankAccount {
     public void withdraw(double amount) {
         if (amount <= balance) {
             balance -= amount;
-            addTransaction("Withdrew: " + amount);
+            addTransaction("Withdraw: " + amount);
         } else {
             addTransaction("Failed withdrawal attempt: " + amount);
         }
